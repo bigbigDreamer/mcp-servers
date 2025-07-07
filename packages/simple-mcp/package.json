@@ -1,0 +1,30 @@
+{
+  "name": "@yesican/simple-mcp",
+  "version": "1.0.0",
+  "description": "A simple mcp demo",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "type": "module",
+  "bin": {
+    "time": "./dist/bundle.js"
+  },
+  "scripts": {
+    "build": "rollup -c ./rollup.config.mjs"
+  },
+  "keywords": [
+    "mcp"
+  ],
+  "author": "ryanwang",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "zod": "^3.25.74"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
