@@ -1,0 +1,24 @@
+{
+  "name": "mcp-servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter ./packages/** run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-swc": "^0.4.0",
+    "@types/node": "^24.0.10",
+    "rollup": "^4.44.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-esbuild": "^6.2.1",
+    "typescript": "^5.8.3"
+  }
+}
